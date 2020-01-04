@@ -1,0 +1,4 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: First steps with Hugo
+theme: ananke
