@@ -2,12 +2,10 @@
 title: Plotly graphs in Hugo
 ---
 
-Here we follow the instructions provided by Igor Gotlibovych on [his blog](https://ig248.gitlab.io/post/2018-11-05-plotly-sample/):
+Our Plotly shortcode here was inspired by Igor Gotlibovych's [example](https://ig248.gitlab.io/post/2018-11-05-plotly-sample/):
 
 ```
-{{</* load-plotly */>}}
-{{</* plotly json="8248.json" height="400px" */>}}
+{{</* plotly json="8248.json" */>}}
 ```
 
-{{< load-plotly >}}
-{{< plotly json="8248.json" height="400px" >}}
+{{< plotly json="8248.json" >}}
