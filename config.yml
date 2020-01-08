@@ -2,3 +2,7 @@ baseURL: http://example.org/
 languageCode: en-us
 title: First steps with Hugo
 theme: learn
+ignoreFiles:
+  # we'll have to ignore the files that are embedded in the notebooks
+  - df.html
+  - dt.html
