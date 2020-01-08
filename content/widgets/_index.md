@@ -1,5 +1,6 @@
 ---
 title: Jupyter widgets in Hugo
+weight: 40
 ---
 
 To begin with, we load the widget state with

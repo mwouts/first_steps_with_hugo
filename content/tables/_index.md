@@ -1,6 +1,6 @@
 ---
 title: Tables in Hugo
-weight: 15
+weight: 20
 ---
 
 ## Do tables work well in Hugo?

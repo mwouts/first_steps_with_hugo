@@ -37,7 +37,7 @@ The menu bar on the left reproduces the folder hierarchy in the `content` folder
 ```
 ---
 title: Typing text
-weight: 5
+weight: 100
 ---
 ```
 

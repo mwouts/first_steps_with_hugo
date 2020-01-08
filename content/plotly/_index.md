@@ -1,5 +1,6 @@
 ---
 title: Plotly graphs in Hugo
+weight: 30
 ---
 
 Our Plotly shortcode here was inspired by Igor Gotlibovych's [example](https://ig248.gitlab.io/post/2018-11-05-plotly-sample/):
