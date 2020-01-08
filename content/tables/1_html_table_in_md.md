@@ -15,41 +15,9 @@ Works well
 
 ## A simple HTML table
 
-TODO - Fix this
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>4</td>
-    </tr>
-  </tbody>
-</table>
-
-## A sample Pandas HTML table
-
-TODO - Fix this
+Including HTML code directly in the Markdown file does not seem to work. Do we need to call `safeHTML`?
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -65,4 +33,3 @@ TODO - Fix this
   </tbody>
 </table>
 </div>
-
