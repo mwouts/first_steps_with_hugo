@@ -7,4 +7,7 @@ ignoreFiles:
   - df.html
   - dt.html
   - widget_example.html
-
+outputs:
+  home:
+    - HTML
+    - JSON
