@@ -6,6 +6,7 @@ ignoreFiles:
   # we'll have to ignore the files that are embedded in the notebooks
   - df.html
   - dt.html
+  - dt2.html
   - widget_example.html
 outputs:
   home:
