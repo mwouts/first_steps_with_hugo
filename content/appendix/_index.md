@@ -43,3 +43,14 @@ weight: 100
 
 (note that `weight` is used to determine the position relative to the other entries in the menu).
 
+# Alternative themes
+
+The `learn` theme is great, but I was not able to embed HTML content that uses `requirejs` (e.g. Jupyter widgets or interactive tables).
+
+The `ananke` theme has no such issue, but I was missing the navigation menu.
+
+The `hugo-book` theme looks great, but there I don't see how to go to the next chapter.
+
+The `hugo-theme-techdoc` works super well! It even has the _edit on GitHub_ link. The only issue I saw was that the first interactive table was breaking the lateral menu. 
+
+The `docsy` theme has more requirements than the other ones: I had to uninstall `hugo` and instead install `hugo-extended`, install `nodejs` (all that using `choco (un)install` as an administrator), and then restarted powershell, cd to my project, and ran `npm install -D --save autoprefixer` and `npm install -D --save postcss-cli`... and finally got a few additional errors.
