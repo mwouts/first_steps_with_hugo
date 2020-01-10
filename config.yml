@@ -1,6 +1,6 @@
-baseURL: http://example.org/
+baseURL: https://my-first-steps-with-hugo.netlify.com/
 languageCode: en-us
-title: First steps with Hugo
+title: My first steps with Hugo
 theme: hugo-theme-techdoc
 ignoreFiles:
   # we'll have to ignore the files that are embedded in the notebooks
@@ -15,8 +15,9 @@ outputs:
     - JSON
 # Params for the hugo-theme-techdoc theme
 params:
-  # Source Code repository section
   description: What kind of content will work in Hugo?
+  
+  # Source Code repository section
   # Project repository
   github_repository: https://github.com/mwouts/first_steps_with_hugo
   # Documentation repository
