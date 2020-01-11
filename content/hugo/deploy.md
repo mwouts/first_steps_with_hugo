@@ -14,3 +14,9 @@ Then, all I had to do was to change the site domain to [https://my-first-steps-w
 
 ![](../netlify_domain.png)
 
+Then I realized that the rendering of the website on Netlify was not exactly matching the one I was seeing locally. Thus I fixed the version of Hugo used by Netlify with
+a `netlify.toml` file with the following content:
+```
+[context.production.environment]
+  HUGO_VERSION = "0.62.2"
+```
